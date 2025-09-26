@@ -44,7 +44,7 @@ lcd.begin(16, 2); // Configura lcd numero columnas y filas
 lcd.setCursor(0,0);  //Show "TIME" on the LCD
 lcd.print("   Welcome To   ");
 lcd.setCursor(0,1);
-lcd.print("Auto School Bell");
+lcd.print("Automatic Bell System");
 
 if(EEPROM.read(0)==0){  
 }else{
@@ -413,3 +413,4 @@ if(timerStart == true){MilliSecond++;
     }
   }  
 }
+
